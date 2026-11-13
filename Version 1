@@ -1,0 +1,13 @@
+# Version1
+#User input
+event_title = str(input("Enter event title: "))
+year = int(input("Enter year: "))
+month = int(input("Enter month: "))
+day = int(input("Enter day: "))
+#Output
+print("Event:", event_title)
+print("Date:", month, day,",", year)
+print("Year:", year)
+print("Month:", month)
+print("Day:", day)
+print("Weekday:", day)
